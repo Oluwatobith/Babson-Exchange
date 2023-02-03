@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Description" content="At Babson Exchange, we buy and sell Bitcoins and other cryptocurrency, Giftcards and available for fund picking, all at good rate.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BABSON EXCHANGE - HomePage</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="images/favicon/site.webmanifest">
+        <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <section> 
+
+          <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="About Us.html">About</a></li>
+                <li class="topnav-right"><a href="Payment Medium.html"><strong>Payment Mediums</strong></a></li>
+                <li class="topnav-right"><a href="Giftcards.html"><strong>Giftcard Store</strong></a></li>
+                <li class="topnav-right"><a href="Crypto.html"><strong>Coin Store</strong></a></li>
+           </ul>
+        </nav>
+              
+
+
+              <article>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style>
+                * {
+                  box-sizing: border-box;
+                }
+                
+                body {
+                  background-color: #f1f1f1;
+                  padding: 20px;
+                  font-family: Arial;
+                }
+                
+                /* Center website */
+                .main {
+                  max-width: 1000px;
+                  margin: auto;
+                }
+                
+                h2 {
+                  font-size: 50px;
+                  word-break: break-all;
+                  color: #000;
+                  font-stretch: extra-expanded;
+                }
+                
+                .row {
+                  margin: 10px -16px;
+                }
+                
+                /* Add padding BETWEEN each column */
+                .row,
+                .row > .column {
+                  padding: 8px;
+                }
+                
+                /* Create three equal columns that floats next to each other */
+                .column {
+                  float: left;
+                  width: 33.33%;
+                  display: none; /* Hide all elements by default */
+                }
+                
+                /* Clear floats after rows */ 
+                .row:after {
+                  content: "";
+                  display: table;
+                  clear: both;
+                }
+                
+                /* Content */
+                .content {
+                  background-color: white;
+                  padding: 10px;
+                }
+                
+                /* The "show" class is added to the filtered elements */
+                .show {
+                  display: block;
+                }
+                
+                /* Style the buttons */
+                .btn {
+                  border: none;
+                  outline: none;
+                  padding: 12px 16px;
+                  background-color: white;
+                  cursor: pointer;
+                }
+                
+                .btn:hover {
+                  background-color: #ddd;
+                }
+                
+                .btn.active {
+                  background-color: #666;
+                  color: white;
+                }
+                </style>
+                </head>
+                <body>
+                
+                <!-- MAIN (Center website) -->
+                <div class="main">
+                
+                <h2>Payment Store</h2>
+                <hr>
+            
+                <div id="myBtnContainer">
+                 <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                 <button class="btn" onclick="filterSelection('Paypal')"> Paypal</button>
+                 <button class="btn" onclick="filterSelection('CashApp')"> CashApp</button>
+                 <button class="btn" onclick="filterSelection('Zelle')"> Zelle</button>
+                 <button class="btn" onclick="filterSelection('Banks')"> All Banks</button>
+                </div>
+                
+                <!-- Portfolio Gallery Grid -->
+                <div class="row">
+                    <div class="column Paypal">
+                        <div class="content">
+                        <img src="Images/paypal 1.png" alt="Paypal" style="width:100%">
+                          <h4>Paypal</h4>                         
+                    </div>
+                  </div>
+                  <div class="column Paypal">
+                    <div class="content">
+                    <img src="Images/paypal 3.jpg" alt="Paypal" style="width:100%">
+                      <h4>Paypal</h4>                      
+                    </div>
+                  </div>
+                 
+                  <div class="column CashApp">
+                    <div class="content">
+                      <img src="Images/cashapp 1.jpeg" alt="CashApp" style="width:100%">
+                      <h4>CashApp</h4>                     
+                    </div>
+                  </div>
+                  <div class="column CashApp">
+                    <div class="content">
+                    <img src="Images/cashapp 3.webp" alt="CashApp" style="width:100%">
+                      <h4>CashApp</h4>                    
+                    </div>
+                  </div>
+                
+                  <div class="column Zelle">
+                    <div class="content">
+                      <img src="Images/zelle 2.jpeg" alt="Zelle" style="width:100%">
+                      <h4>Zelle</h4>                     
+                    </div>
+                  </div>
+                  <div class="column Zelle">
+                    <div class="content">
+                    <img src="Images/zelle 3.jpg" alt="Zelle" style="width:100%">
+                      <h4>Zelle</h4>                   
+                    </div>
+                  </div>
+
+                  <div class="Banks">
+                    <div class="column Banks">
+                      <div class="content">
+                        <img src="Images/banks 3.webp" alt="All Banks" style="width:100%">
+                        <h4>All Banks</h4>                    
+                      </div>
+                    </div>
+                    <div class="Banks">
+                        <div class="column Banks">
+                          <div class="content">
+                            <img src="Images/banks 5.png" alt="All Banks" style="width:100%">
+                            <h4>All Banks</h4>                          
+                          </div>
+                    </div>
+                    <div class="Banks">
+                        <div class="column Banks">
+                          <div class="content">
+                            <img src="Images/banks.jpg" alt="All Banks" style="width:100%">
+                            <h4>All Banks</h4>                           
+                          </div>
+                    </div>
+
+                                  
+            
+                <!-- END GRID -->
+                </div>
+                
+                <!-- END MAIN -->
+                </div>
+                
+                <script>
+                filterSelection("all")
+                function filterSelection(c) {
+                  var x, i;
+                  x = document.getElementsByClassName("column");
+                  if (c == "all") c = "";
+                  for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                  }
+                }
+                
+                function w3AddClass(element, name) {
+                  var i, arr1, arr2;
+                  arr1 = element.className.split(" ");
+                  arr2 = name.split(" ");
+                  for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+                  }
+                }
+                
+                function w3RemoveClass(element, name) {
+                  var i, arr1, arr2;
+                  arr1 = element.className.split(" ");
+                  arr2 = name.split(" ");
+                  for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                    }
+                  }
+                  element.className = arr1.join(" ");
+                }
+                
+                
+                // Add active class to the current button (highlight it)
+                var btnContainer = document.getElementById("myBtnContainer");
+                var btns = btnContainer.getElementsByClassName("btn");
+                for (var i = 0; i < btns.length; i++) {
+                  btns[i].addEventListener("click", function(){
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                  });
+                }
+                </script>
+                
+                </body>
+                </html>
+                
+
+
+                <p></p>
+
+
+            </section>
+
+            <footer>
+                <p>BABSON EXCHANGE- info@babsonexchange.com</p>
+                <p>Copyright 2023(c)</p>
+            </footer>
+    
+        </body>
+    
+    </html>

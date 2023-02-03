@@ -1,0 +1,268 @@
+     * {
+      box-sizing: border-box;
+    }
+
+    nav, header, footer {
+      display: block;
+  }
+
+
+body {
+        font-family: Arial, Tahoma;
+         background-color: rgb(201, 221, 240);
+         border: 3px solid rgb(10, 0, 0);
+         padding-left: 0px
+    }
+
+header {
+        background-color: rgb(21, 22, 29);
+        padding: 3px;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(252, 247, 247); 
+    }
+      
+
+    h1 {
+        font-kerning: inherit;
+        font: bolder;
+        font-size: 80px;
+        color: rgb(253, 248, 247);
+        font-variant: small-caps;
+        margin-bottom: 15px;
+        margin-top: 10px;
+  }
+
+
+  article ul {
+    font-size: 15px;
+    padding-left: 8px;
+  }
+
+
+article ul li {
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+
+    div img {
+        border: 2px solid rgb(14, 10, 8);
+        margin-top: 5px;
+        margin-left: 0px;
+
+  }
+
+
+
+          ul {
+        font-size: 20px;
+        margin-left: -12px;
+  }
+
+  
+    /* Style the list inside the menu */
+    nav ul {
+      
+        padding-right: 15px;
+  }
+  
+  article {
+        float: center;
+        padding: 12px;
+        background-color: #f1f1f1;
+  }
+ 
+
+  /* Style the footer */
+  footer {
+        background-color: rgb(27, 25, 34);
+        padding: 5px;
+        text-align: center;
+        color: rgb(240, 247, 243);
+
+  }
+
+  h5 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 12px
+  }
+
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+  label {
+    text-align: center;
+    font-size: 20px;
+  }
+
+
+
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    width: 100%;
+    margin: 0;
+}
+
+
+nav ul {
+    background-color: aliceblue;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+    
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+    font-size: 12px;
+}
+
+ul.topnav li a:hover {
+    background-color: rgb(62, 71, 204);
+    color: white;
+}
+
+
+  
+ 
+
+
+  .container {
+    width: 100%;
+    margin: auto;
+    padding-left: 60px;
+}
+
+
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+div.box {
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  margin: 20px;
+  background-color: rgb(175, 181, 206);
+  box-shadow: 0 0 0 1px rgba(17, 8, 8, 0.05),
+  0 2px 3px 0 rgba(134, 7, 7, 0.1);
+}
+
+
+
+
+
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media screen and (max-width: 570px) {
+   
+
+      ul.topnav li a {
+        font-size: 10px;
+      }
+
+      ul.topnav li.topnav-right {
+        padding-left: 0px;
+      }
+    
+        
+        ul.topnav.responsive{
+            position: relative;
+        }
+        
+        ul.topnav.responsive li {
+            display: inline;
+            float: none;
+        }
+        
+        ul.topnav.responsive li a {
+            display: block;
+            text-align: left;
+        }
+
+
+       img {
+        width: 100%;
+       }
+
+
+       h1 {
+        font-size: 25px;
+       }
+
+
+
+       .col-4 {
+        width: 100%;
+        margin: 0;
+       }
+    
+    
+}
